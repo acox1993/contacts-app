@@ -1,0 +1,26 @@
+fieldset {
+	width: 7em;
+	line-height: ;
+	display: inline-block;
+	float: left;
+}
+
+.contacts {
+	clear: both;
+	width: 100%;
+	box-sizing: border-box;
+}
+.contacts h4 {
+	/*text-align: center;*/
+}
+
+.appear {
+	position: fixed;
+	display:inline-block;
+	margin-top: 1em;
+	margin-left: 4em;
+}
+
+.appear h4 {
+	text-align: center;
+}
