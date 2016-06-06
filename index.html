@@ -10,7 +10,7 @@
 <body>
 	<header><h1> Address Book</h1></header>
 	<fieldset>
-		<form action="js/app.js" method="post">
+		<!-- <form  method="post"> -->
 			Add a contact:
 			<br>
 			First name <span class="star">*</span> 
@@ -37,23 +37,24 @@
 			<br>
 			<input type="text" class="state" name="state">
 			<br>
-			<input type="submit" value="Add">
-		</form>
+			<input type="submit" class="add" value="Add">
+		<!-- </form> -->
 	</fieldset>
 	<div class="appear">
-		<h4>Jason Last</h4>
+		<!-- <h4>Jason Last</h4>
 		<ul class="jason"> 
 			<li>First name: Jason</li>
 			<li>Last name: Last</li>
 			<li>Phone number: 123-123-1234</li>
 			<li>Address: 123 Infinity lane, Town, Ohio</li>
-		</ul>
+		</ul> -->
 
 
 	</div>
 	<div class="contacts"> <!--toggle open and closed-->
+			<button class="update"> Update </button>
 			<h4>Contacts</h4>
-			<ul>
+			<ul class="con">
 				<li><a href="#"> Jason Last</a></li>
 			</ul>
 	</div>
@@ -61,6 +62,6 @@
 	
 </body>
 		<script src="http://code.jquery.com/jquery.min.js"></script>
-	 	<!--<script src="js/app.js"></script> -->
+	 	<script src="js/app.js"></script> 
 	 	<script src="https://use.fontawesome.com/ced1a2be28.js"></script>
 </html>

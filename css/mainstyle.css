@@ -14,6 +14,10 @@ fieldset {
 	/*text-align: center;*/
 }
 
+.contactwrapper {
+	display: none;
+}
+
 .appear {
 	position: fixed;
 	display:inline-block;
