@@ -23,8 +23,24 @@ fieldset {
 	display:inline-block;
 	margin-top: 1em;
 	margin-left: 4em;
+	text-transform: capitalize;
 }
 
 .appear h4 {
 	text-align: center;
+}
+
+.phoneNumber2, .street2, .city2, .state2 {
+	display: none;
+}
+
+.plusNumber, .plusAddress {
+	cursor: pointer;
+	color: green;
+	font-size: 1.2em;
+}
+
+div.contacts li {
+	cursor: pointer;
+	text-transform: capitalize;
 }
